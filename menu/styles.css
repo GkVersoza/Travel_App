@@ -1,0 +1,128 @@
+html{
+    background: #ffffff;
+    font-family: sans-serif;
+    border: 0;
+    padding: 0;
+    
+    align-content: center;
+
+    
+}
+.title_bar {
+    display: flex;
+    color: #ff4f4f;
+}
+.title_bar img {
+    width: 24px;
+    height:24px;
+    margin: 22px;
+}
+.search, .origin{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-bar{
+    width: 100%;
+    border: 2px solid #ff4f4f;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-content: center;
+    border-radius: 60px;
+    margin: 10px;
+
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #ff4f4f;
+
+}
+
+::placeholder{
+    color: #ff4f4f;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button {
+    border: 0;
+    /* margin: 5px; */
+    border-radius: 50%;
+    /* width: 60px; */
+    /* height: 60px; */
+    background: #ff4f4f;
+    cursor: pointer;
+}
+.main_image {
+    margin: 10px;
+}
+.main_image img{
+    width:100%;
+}
+.list {
+    display: flex;
+    border: 2px solid #ff4f4f;
+    margin: 10px;
+}
+.list img {
+    height: 100px;
+    margin: auto;
+}
+.list h2,.list_text {
+    padding : 10px;
+}
+.list_text {
+    display: block;
+}
+.list_text p, .list h2 {
+    margin: 0px;
+}
+
+#country {
+    font-size: 20px;
+    padding: 25px 82px;
+    border-radius: 10px;
+    border: 2px solid #ff4f4f;
+    margin: 10px;
+    /* width: 100%; */
+}
+footer {
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    border: 2px solid #ff4f4f;
+    margin: 10px;
+}
+footer p {
+    padding: 14px;
+}
+.options button {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background: #fff;
+    border: 2px solid #ff4f4f;
+}
+.menu_list button {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #fff;
+    background: #ff4f4f;
+    border: 2px solid #ff4f4f;
+}
+}
